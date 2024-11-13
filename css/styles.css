@@ -11027,3 +11027,21 @@ p {
 .address strong {
   font-size: 1.2rem;
 }
+
+.header-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Centraliza na página */
+}
+
+.site-heading {
+  margin: 0; /* Remove margens ao redor do título */
+  text-align: center; /* Alinha o texto dentro do h1 ao centro */
+}
+
+.logo {
+  width: 200px; /* Ajuste o tamanho da logo conforme necessário */
+  height: auto;
+  margin-left: 10px; /* Espaçamento entre o texto e a logo */
+}
